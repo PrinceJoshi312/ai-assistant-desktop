@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+tensorflow
+keras
+nltk
+numpy
+python-dotenv
+google-generativeai

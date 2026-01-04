@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Virtual Assistant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+    #chat {
+      height: 400px;
+      overflow-y: auto;
+      border: 1px solid #334155;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    input {
+      width: 80%;
+      padding: 10px;
+    }
+    button {
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <h2>🤖 AI Assistant</h2>
+
+  <div id="chat"></div>
+
+  <input id="msg" placeholder="Type a message..." />
+  <button id="sendBtn" type="button">Send</button>
+
+
+  
+
+</body>
+<script src="renderer.js"></script>
+</html>

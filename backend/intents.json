@@ -1,0 +1,50 @@
+{
+  "intents": [
+    {
+      "tags": "greetings",
+      "patterns": ["hello", "hey", "hi", "how are you", "what's up", "yo", "hi there", "good morning", "good evening"],
+      "responses": ["Hi there! How can I assist you today?", "Hello!", "How are you doing?"]
+    },
+    {
+      "tags": "wake",
+      "patterns": ["bugg", "wake up", "hey bugg", "are you there", "hello bugg"],
+      "responses": ["Yes, I’m listening."]
+    },
+    {
+      "tags": "date",
+      "patterns": ["what's the date", "today's date", "date please", "tell me the date", "current date", "can you tell the date"],
+      "responses": ["date"]
+    },
+    {
+      "tags": "time",
+      "patterns": ["what's the time", "time now", "tell me time", "current time", "can you tell time", "show time"],
+      "responses": ["time"]
+    },
+    {
+      "tags": "google_search",
+      "patterns": ["search this", "google this", "find on google", "search on browser", "can you search", "look this up"],
+      "responses": ["google search"]
+    },
+    {
+      "tags": "music",
+      "patterns": ["play music", "play song", "youtube music", "can you play", "play this on youtube", "start music"],
+      "responses": ["play music"]
+    },
+    {
+      "tags": "weather",
+      "patterns": ["what's the weather", "weather forecast", "weather in", "temperature in", "how's the weather", "is it raining", "is it sunny"],
+      "responses": ["weather"]
+    },
+
+    {
+      "tags": "todo",
+      "patterns": ["add to to-do", "remember this", "save task", "add task", "to-do list", "remind this"],
+      "responses": ["todo"]
+    },
+    {
+      "tags": "close tab",
+      "patterns": ["close tab", "close browser", "shut tab", "close this page", "close current tab", "close window"],
+      "responses": ["close tab"]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ai-virtual-assistant",
+  "version": "1.0.0",
+  "description": "AI Virtual Assistant Desktop App",
+  "main": "main.js",
+  "author": "Your Name",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.ai.virtualassistant",
+    "productName": "AI Virtual Assistant",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "../backend/**/*",
+      "../ui/**/*",
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.9.1"
+  }
+}
