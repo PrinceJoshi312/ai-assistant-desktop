@@ -28,7 +28,7 @@ model = load_model(os.path.join(BASE_DIR, "chatbot.h5"))
 
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-gemini = genai.GenerativeModel("gemini-1.5-flash")
+gemini = genai.GenerativeModel("gemini-2.5-flash")
 chat = gemini.start_chat(history=[])
 
 def clean_text(text):
