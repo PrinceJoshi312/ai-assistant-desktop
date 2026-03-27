@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENWEATHER_API_KEY = os.getenv(
-    "OPENWEATHER_API_KEY", "bd5e378503939ddaee76f12ad7a97608"
+    "OPENWEATHER_API_KEY", "YOUR_KEY_HERE"
 )
 
 # def map_task(intent, user_text):
