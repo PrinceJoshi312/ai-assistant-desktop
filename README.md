@@ -2,7 +2,7 @@
 
 An intelligent, cross-platform desktop assistant built by integrating a **Python-based AI engine** with an **Electron.js GUI**. This project evolved from a terminal-based bot into a full-fledged desktop application.
 
-## 🚀 Current Project Status: Phase 1 Complete
+## 🚀 Current Project Status: Phase 1 Complete 
 - [x] Backend FastAPI server operational.
 - [x] Electron frontend successfully communicating with Python.
 - [x] Real-time intent processing (JSON handshake).
